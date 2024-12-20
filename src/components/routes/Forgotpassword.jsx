@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-const Login = () => {
+export const Forgotpassword = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       {/* Logo and Tagline */}
@@ -17,65 +17,45 @@ const Login = () => {
         </p>
       </div>
 
-      {/* Login Form */}
+      {/* Forgot Password Form */}
       <div className=" rounded-lg p-8 w-full max-w-sm">
-        <h2 className="text-xl font-bold text-center mb-6">Login</h2>
+        <h2 className="text-xl font-bold text-center mb-6">Forgot Password</h2>
 
-        {/* Mobile Number Input */}
+        {/* Email Input */}
         <div className="mb-4">
-          <input
-            type="text"
-            id="mobile"
-            placeholder="Mobile Number"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
-          />
-        </div>
-
-        {/* Password Input */}
-        <div className="mb-4">
-          <input
-            type="password"
-            id="password"
-            placeholder="Password"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
-          />
-        </div>
-
-        {/* Remember Me and Forgot Password */}
-        <div className="flex items-center justify-between mb-6">
-          <label className="flex items-center">
+          <div className="relative">
+            <span className="absolute inset-y-0 left-0 flex items-center pl-3">
+              <svg
+                className="h-5 w-5 text-gray-400"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M16 12H8m0 0H8m0 4H8m0-8H8m8 8H8"
+                />
+              </svg>
+            </span>
             <input
-              type="checkbox"
-              className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+              type="email"
+              id="email"
+              placeholder="Email "
+              className="w-full pl-10 px-4 py-2 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"
             />
-            <span className="ml-2 text-sm text-gray-700">Remember Me</span>
-          </label>
-          <Link
-            to="/ForgotPassword"
-            className="text-sm text-green-600 hover:underline"
-          >
-            Forgot Password?
-          </Link>
+          </div>
         </div>
 
-        {/* Sign In Button */}
-        <button className="w-full bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500">
-          Sign In
-        </button>
-
-        {/* Sign Up Link */}
-        <p className="text-center text-sm text-gray-600 mt-6">
-          Don’t Have an Account?{" "}
-          <Link
-            to="/Register"
-            className="text-green-600 font-medium hover:underline"
-          >
-            Sign Up
-          </Link>
-        </p>
+        {/* Submit Button */}
+        <Link to="/Login">
+          <button className="w-full bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500">
+            Submit
+          </button>
+        </Link>
       </div>
     </div>
   );
 };
-
-export default Login;
