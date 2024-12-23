@@ -50,7 +50,7 @@ const Login = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       {/* Logo and Tagline */}
       <div className="">
-        <img className="w-auto mb-5 cmpny-img" alt="Company Logo" />
+        <img className=" cmpny-img" />
       </div>
 
       {/* Login Form */}

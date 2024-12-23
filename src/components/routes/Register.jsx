@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
 import * as Yup from "yup";
 
@@ -61,7 +61,7 @@ const Register = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white p-5">
       <div className="">
-        <img className="w-auto mb-5 cmpny-img" alt="Company Logo" />
+        <img className=" cmpny-img" />
       </div>
       <h1 className="text-xl font-bold mb-8">Company Registration</h1>
       <form className="w-[670px] flex flex-col gap-4" onSubmit={handleSubmit}>
@@ -144,9 +144,15 @@ const Register = () => {
           </button>
         </div>
       </form>
-      <Link className="flex justify-center mt-5" to="/Login">
-        Already have an account? Login
-      </Link>
+      <p className="text-center text-sm text-gray-600 mt-6">
+        Don’t Have an Account?{" "}
+        <Link
+          to="/Login"
+          className="text-green-600 font-medium hover:underline"
+        >
+          Login Here
+        </Link>
+      </p>
     </div>
   );
 };
