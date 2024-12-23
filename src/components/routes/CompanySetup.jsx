@@ -1,17 +1,17 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Link } from "react-router";
-import "/Users/jeetpatel/Desktop/Dj/src/components/routes/Companysetup.css"
+import "./CompanySetup.css";
 
 const CompanySetup = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
       <header className="W-[1920px] h-[80px] flex justify-between main-header">
-      <div className="p-4 text-center">
+        <div className="p-4 text-center">
           <img
             src="https://i0.wp.com/seamonsseeds.com/wp-content/uploads/2023/09/logo-250-x-60-e1723204883229.png?fit=183%2C61&ssl=1"
             alt="Logo"
-            className="main-img" 
+            className="main-img"
           />
         </div>
         <div className="flex items-center space-x-4">

@@ -51,14 +51,14 @@
   background-size: 18px;
 }
 
-.cmpny-img{
-    background-image: url(./components//routes/img/cmpnylogo.png);
-   background-size: 190px;
-   padding: 100px;
-    background-repeat: no-repeat;
-    margin-bottom: 50px
-   
+.cmpny-img {
+  background-image: url(./components//routes/img/cmpnylogo.png);
+  background-size: 190px;
+  padding: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
