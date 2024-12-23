@@ -6,6 +6,7 @@ import Login from "./components/routes/login";
 import Landingpage from "./components/routes/landingpage";
 import { Forgotpassword } from "./components/routes/Forgotpassword";
 import Dashboard from "./components/routes/Dashboard";
+import CompanySetup from "./components/routes/CompanySetup";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/ForgotPassword" element={<Forgotpassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/Companysetup" element={<CompanySetup/>} />
         <Route path="/" element={<Landingpage />} />
       </Routes>
     </BrowserRouter>
