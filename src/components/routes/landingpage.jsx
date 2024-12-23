@@ -9,18 +9,19 @@ const Landingpage = () => {
     // Redirect to the login page after 5 seconds
     const timer = setTimeout(() => {
       navigate("/login"); // Replace "/login" with the route to your Login page
-    }, 5000);
+    }, 2000);
 
     // Clean up the timer on component unmount
     return () => clearTimeout(timer);
   }, [navigate]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-      <h1 className="text-2xl font-bold">Welcome to the Landing Page!</h1>
-      <p className="mt-4 text-gray-700">
-        You will be redirected to the Login page shortly...
-      </p>
+    <div className=" mt-[230px] flex w-full justify-between items-center">
+      <div className="flex w-full justify-between align-middle items-center ">
+        <img className="landing-2"></img>
+        <img className="cmpnylogo"></img>
+        <img className="landing-1"></img>
+      </div>
     </div>
   );
 };

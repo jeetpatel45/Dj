@@ -1,92 +1,82 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./CompanySetup.css";
+import Header from "./Header";
+import { Link } from "react-router";
 
 const CompanySetup = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
-      <header className="W-[1920px] h-[80px] flex justify-between main-header">
-        <div className="p-4 text-center">
-          <img
-            src="https://i0.wp.com/seamonsseeds.com/wp-content/uploads/2023/09/logo-250-x-60-e1723204883229.png?fit=183%2C61&ssl=1"
-            alt="Logo"
-            className="main-img"
-          />
-        </div>
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center">
-            <img
-              src="/avatar.png"
-              alt="User Avatar"
-              className="h-8 w-8 rounded-full"
-            />
-            <span className="ml-2 text-gray-700">Mason Clark</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <button className="text-green-700">
-              <i className="fas fa-bell"></i>
-            </button>
-            <button className="text-gray-700">
-              <i className="fas fa-power-off"></i>
-            </button>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       {/* Progress Bar */}
-      <div className="w-full bg-gray-200 h-1 my-4">
-        <div className="bg-green-500 h-1 w-1/2"></div>
-      </div>
 
       {/* Content */}
-      <main className="flex-grow px-8 py-6">
-        <div className="max-w-3xl mx-auto  bg-white shadow  p-6">
-          <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
+      <main className="flex-grow px-8 py-6 bg-gray-100">
+        <div className="flex justify-between px-[110px]">
+          <p>Company Setup</p>
+          <p>Office Timings</p>
+        </div>
+        <div className="w-[80%] ml-[150px] bg-gray-200 h-1 my-10 flex">
+          {/* <img className="round-img"></img> */}
+
+          <div className="w-[23px] h-[23px] mt-[-10px] rounded-full bg-green-500 "></div>
+          <div className=" border-2 border-green-500 dotted"></div>
+          <div className="bg-green-500 h-1 w-1/2"></div>
+          <div className="w-[23px] h-[23px] flex ml-[542px] mt-[-10px] rounded-full bg-gray-200 "></div>
+          <div className=" border-2  border-gray-200 dotted"></div>
+        </div>
+        <div className=" mt-[75px] max-w-[77rem] mx-auto rounded-xl  bg-white shadow  p-6">
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-14">
             Company Setup
           </h2>
-          <div className="grid grid-cols-2 gap-4">
-            <input
-              type="text"
-              placeholder="Office Name"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-            <input
-              type="text"
-              placeholder="Office Location"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-            <input
-              type="text"
-              placeholder="Office Country"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-            <input
-              type="text"
-              placeholder="Office Number"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-            <input
-              type="text"
-              placeholder="Office Address"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-            <input
-              type="text"
-              placeholder="Time Zone"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
+          <div className=" grid gap-4">
+            <div className="flex justify-between gap-2">
+              <input
+                type="text"
+                placeholder="Office Name"
+                className="cmpnysetup-img-1 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+              <input
+                type="text"
+                placeholder="Office Location"
+                className="cmpnysetup-img-2 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+              <input
+                type="text"
+                placeholder="Office Country"
+                className="cmpnysetup-img-3 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
+            <div className="flex justify-between gap-2">
+              <input
+                type="text"
+                placeholder="Office Number"
+                className="cmpnysetup-img-4 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+              <input
+                type="text"
+                placeholder="Office Address"
+                className=" cmpnysetup-img-5 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+              <input
+                type="text"
+                placeholder="Time Zone"
+                className=" cmpnysetup-img-6 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
             <input
               type="email"
               placeholder="Office Email"
-              className="p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+              className=" cmpnysetup-img-7 bg-gray-200 w-full py-[10px] text-[20px] px-[42px] border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
             />
           </div>
-          <div className="flex justify-end mt-6">
-            <button className="bg-green-500 text-white py-2 px-6 rounded-3xl shadow hover:bg-green-600">
+          <Link to="/WorkTiming" className="flex justify-end mt-6">
+            <button className="bg-green-500 text-white py-[10px] text-[20px] px-[42px] rounded-3xl shadow hover:bg-green-600">
               Next
             </button>
-          </div>
+          </Link>
         </div>
       </main>
     </div>

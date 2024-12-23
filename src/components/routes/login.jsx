@@ -64,7 +64,7 @@ const Login = () => {
               type="text"
               name="mobile"
               placeholder="Mobile Number"
-              className="w-full border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 img-4"
+              className="w-full border border-gray-300 rounded-full focus:ring-green-500 focus:border-green-500 img-6"
               value={formData.mobile}
               onChange={handleChange}
             />
@@ -79,7 +79,7 @@ const Login = () => {
               type="password"
               name="password"
               placeholder="Password"
-              className="w-full border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 img-5"
+              className="w-full border border-gray-300 rounded-full focus:ring-green-500 focus:border-green-500 img-7"
               value={formData.password}
               onChange={handleChange}
             />
@@ -108,7 +108,7 @@ const Login = () => {
           {/* Sign In Button */}
           <button
             type="submit"
-            className="w-full bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500"
+            className="w-full bg-green-600 text-white py-3 rounded-full font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500"
           >
             Sign In
           </button>

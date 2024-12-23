@@ -8,7 +8,16 @@
   padding-right: 8px;
   background-size: 18px;
 }
-
+.img-8 {
+  background-image: url(./components//routes/img/Email.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
 .img-2 {
   background-image: url(./components//routes/img/Cmpny.png);
   background-position: 15px;
@@ -50,6 +59,16 @@
   padding-right: 8px;
   background-size: 18px;
 }
+.img-7 {
+  background-image: url(./components//routes/img/password.png);
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
 
 .cmpny-img {
   background-image: url(./components//routes/img/cmpnylogo.png);
@@ -57,6 +76,157 @@
   padding: 100px;
   background-repeat: no-repeat;
   margin-bottom: 50px;
+}
+
+.landing-1 {
+  background-image: url(/src/components/routes/img/landing-1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 44px 270px;
+}
+.landing-2 {
+  background-image: url(/src/components/routes/img/landing-2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 44px 270px;
+}
+.cmpnylogo {
+  background-image: url(/src/components/routes/img/cmpnylogo.png);
+  background-size: 96%;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.img-6 {
+  background-image: url(./components//routes/img/phone.png);
+  background-position: 16px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 14px;
+}
+.dotted {
+  width: 33px;
+  height: 33px;
+  border-radius: 21px;
+  border: solid;
+  border-color: green;
+  margin-top: -15px;
+  margin-left: -27.5px;
+}
+
+.cmpnysetup-img-1 {
+  background-image: url("./components/routes/img/cmpnysetup/office-name.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-2 {
+  background-image: url("./components/routes/img/cmpnysetup/map.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-3 {
+  background-image: url("./components/routes/img/cmpnysetup/country.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-4 {
+  background-image: url("./components/routes/img/cmpnysetup/number.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-5 {
+  background-image: url("./components/routes/img/cmpnysetup/timezone.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-6 {
+  background-image: url("./components/routes/img/cmpnysetup/email.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-7 {
+  background-image: url("./components/routes/img/cmpnysetup/map.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.cmpnysetup-img-8 {
+  background-image: url("./components/routes/img/cmpnysetup/timing.png");
+  background-position: 14px;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 18px;
+}
+.main-img-logo {
+  background-image: url(/src/components/routes/img/Header/logo.png);
+  background-position: 7px;
+  background-repeat: no-repeat;
+  padding-left: 194px;
+  padding-top: 42px;
+  padding-bottom: 9px;
+  padding-right: 8px;
+  background-size: 179px;
+}
+
+.profilepic {
+  background-image: url(/src/components/routes/img/Header/profilepic.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-top: 83px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 42px;
+}
+.dot {
+  background-image: url(/src/components/routes/img/Header/profilepic.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-top: 83px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  background-size: 42px;
 }
 
 @tailwind base;

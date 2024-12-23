@@ -21,14 +21,14 @@ export const Forgotpassword = () => {
               type="email"
               id="email"
               placeholder="Email "
-              className="w-full pl-10  border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500 img-1"
+              className="w-full pl-10  border border-gray-300 rounded-full focus:ring-green-500 focus:border-green-500 img-8"
             />
           </div>
         </div>
 
         {/* Submit Button */}
         <Link to="/Login">
-          <button className="w-full bg-green-600 text-white py-2 rounded-lg font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500">
+          <button className="w-full bg-green-600 text-white py-3 rounded-full font-medium hover:bg-green-700 focus:ring-2 focus:ring-green-500">
             Submit
           </button>
         </Link>
