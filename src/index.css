@@ -212,21 +212,21 @@
   background-image: url(/src/components/routes/img/Header/profilepic.png);
   background-position: 0px;
   background-repeat: no-repeat;
-  padding-left: 30px;
-  padding-top: 83px;
-  padding-bottom: 14px;
+  padding-left: 0px;
+  padding-top: 49px;
+  padding-bottom: 0px;
   padding-right: 8px;
   background-size: 42px;
 }
 .dot {
-  background-image: url(/src/components/routes/img/Header/profilepic.png);
+  background-image: url(/src/components/routes/img/Header/onlinedot.png);
   background-position: 0px;
   background-repeat: no-repeat;
-  padding-left: 30px;
-  padding-top: 83px;
-  padding-bottom: 14px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 8px;
   padding-right: 8px;
-  background-size: 42px;
+  background-size: 7px;
 }
 
 @tailwind base;

@@ -12,11 +12,11 @@ const Header = () => {
           <div className="flex items-center">
             <img className="h-12 w-12 rounded-full profilepic" />
           </div>
-          <div>
+          <div className=" ">
             <div>
               <p>Mason Clark</p>
             </div>
-            <div>
+            <div className="flex gap-3">
               <img className="dot" />
               <p>Online</p>
             </div>
