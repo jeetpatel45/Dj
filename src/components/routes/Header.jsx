@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-
+import { Link } from "react-router";
 const Header = () => {
   return (
     <header className="W-[1920px] h-[70px] flex justify-between main-header">
@@ -8,6 +8,7 @@ const Header = () => {
         <img className="main-img-logo" />
       </div>
       <div className="flex items-center space-x-4">
+        <div className="vl"></div>
         <div className="flex ">
           <div className="flex items-center">
             <img className="h-12 w-12 rounded-full profilepic" />
@@ -22,14 +23,14 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center space-x-2">
-          <button className="text-green-700">
-            <i className="fas fa-bell"></i>
-          </button>
-          <button className="text-gray-700">
-            <i className="fas fa-power-off"></i>
-          </button>
+        <div className="vl"></div>
+        <div>
+          <img className="bell" />
         </div>
+        <div className="vl"></div>
+        <Link to="/login">
+          <img className="power" />
+        </Link>
       </div>
     </header>
   );

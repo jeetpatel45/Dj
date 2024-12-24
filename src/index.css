@@ -228,7 +228,31 @@
   padding-right: 8px;
   background-size: 7px;
 }
+.bell {
+  background-image: url(/src/components/routes/img/Header/bell.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  padding-top: 21px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  background-size: 28px;
+}
+.power {
+  background-image: url(/src/components/routes/img/Header/power.png);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  padding-top: 21px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  background-size: 23px;
+}
 
+.vl {
+  border-left: 2px solid rgb(230, 230, 230);
+  height: 70px;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

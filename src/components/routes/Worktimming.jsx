@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import Header from "./Header";
-
+import { Link } from "react-router";
 const Worktimming = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
@@ -27,7 +27,7 @@ const Worktimming = () => {
         </div>
         <div className=" mt-[75px] max-w-[77rem] mx-auto rounded-xl  bg-white shadow  p-20">
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-14">
-           Setup Your Work Timing
+            Setup Your Work Timing
           </h2>
           <div className=" grid gap-4">
             <div className="flex justify-between gap-2">
@@ -49,9 +49,9 @@ const Worktimming = () => {
             </div>
           </div>
           <div className="flex justify-end mt-10">
-            <button className="bg-green-500 text-white py-[10px] text-[20px] px-[42px] rounded-3xl shadow hover:bg-green-600">
+            <Link to="/Dashboard" className="bg-green-500 text-white py-[10px] text-[20px] px-[42px] rounded-3xl shadow hover:bg-green-600">
               Submit
-            </button>
+            </Link>
           </div>
         </div>
       </main>
